@@ -1,0 +1,7 @@
+extends: existence
+message: "Images must be in PNG or GIF format"
+ignorecase: false
+nonword: true
+level: error
+tokens:
+  - 'src=("@guide_path/assets/[a-z0-9_]+)(\.jpg|\.bmp|\.jpeg|\.tiff|\.pdf|\.txt|\.md|\.svg|"|\."|\.[a-z]{1,2}"|\.[a-z]{4,}"|\.[^pg]|\.p[^n]|\.pn[^g]|\.g[^i]|\.gi[^f])'

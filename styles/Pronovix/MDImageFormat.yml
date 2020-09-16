@@ -1,0 +1,7 @@
+extends: existence
+message: "Use only PNG or GIF images"
+ignorecase: false
+nonword: true
+level: error
+tokens:
+    - '\!\[[a-zA-Z0-9?:=./\-#@()*;+$,%!\]_ ]+\]\([@/a-z0-9_]*(.jpg|.bmp|.jpeg|.tiff|.pdf|.txt|.md|.svg|\.|\..{1,2}|[a-z0-9_])\)'

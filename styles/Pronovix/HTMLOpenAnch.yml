@@ -1,0 +1,7 @@
+extends: existence
+message: "Always leave a space after the opening anchor tag"
+ignorecase: false
+nonword: true
+level: error
+tokens:
+  - '<a[^ ]'

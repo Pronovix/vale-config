@@ -1,0 +1,7 @@
+extends: existence
+message: "# Use a space after a heading"
+ignorecase: false
+nonword: true
+level: error
+tokens:
+  - '^#+[a-zA-Z0-9=<"\-]'

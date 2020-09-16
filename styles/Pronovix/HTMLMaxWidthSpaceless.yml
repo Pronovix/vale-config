@@ -1,0 +1,7 @@
+extends: existence
+message: "Leave a space before the max-width tag"
+ignorecase: false
+nonword: true
+level: error
+tokens:
+    - '"max-width'

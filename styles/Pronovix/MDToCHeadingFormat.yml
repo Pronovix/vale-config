@@ -1,0 +1,7 @@
+extends: existence
+message: "### Table of contents - looks like this"
+ignorecase: false
+nonword: true
+level: error
+tokens:
+  - '^#{1,2} [Tt]able [Oo]f [Cc]ontent[s]?|^#{4,} [Tt]able [Oo]f [Cc]ontent[s]?|^#{3} table [Oo]f [Cc]ontent[s]?|^#{3} [Tt]able [Oo]f content$|^#{3} Table [Oo]f Content[s]?$'

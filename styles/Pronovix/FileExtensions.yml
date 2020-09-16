@@ -1,0 +1,7 @@
+extends: existence
+message: "Use CAPITAL letters in file name extensions: YML, PNG, PDF."
+ignorecase: false
+nonword: true
+level: error
+tokens:
+  - '[ ]+(json|yml|yaml|pdf|jpg|jpeg|bmp|png|gif|svg|txt|xml)'

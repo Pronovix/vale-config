@@ -1,0 +1,6 @@
+extends: existence
+message: "Use Heading 2, singular form, starting with the HTMLId"
+nonword: true
+level: error
+tokens:
+  - '^#{1} ?[Ff][Aa][Qq]|^#{3,} ?[Ff][Aa][Qq]|^#{2} ?[Ff][Aa][Qq]s|^#{1} ?<a id="faq"></a>[Ff][Aa][Qq]|^#{3,} ?<a id="faq"></a>[Ff][Aa][Qq]|^#{2} ?<a id="faq"></a>[Ff][Aa][Qq]s|^#{2} ?[Ff][Aa][Qq]|^#{2}<a id="faq"></a>[Ff][Aa][Qq]'

@@ -1,0 +1,237 @@
+extends: substitution
+message: Consider using '%s' instead of '%s'
+ignorecase: true
+level: suggestion
+#references: https://developers.google.com/style
+            #https://docs.splunk.com/Documentation/StyleGuide/current/StyleGuide/UIGuidelines
+            #https://www.ibm.com/developerworks/library/styleguidelines/
+            #https://stylepedia.net/style/
+            #https://medium.com/curiosity-by-design/the-handy-list-of-human-words-a70f13dde55e
+            #https://www.plainlanguage.gov/guidelines/words/use-simple-words-phrases/
+swap:
+  'activate[s]*': turn on
+  accordingly: so
+  accurate: correct/exact/right
+  and/or: x,y, or both
+  '[ ]additional[ ]': more/other/different
+  allows you to: You can do a, b, and c.
+  appropriate: right
+  ascertain: find out/learn
+  'assist[s]*': help
+  associated with: a part of
+  'attempt[s]*': try
+  be advised: another expression
+  basic steps: steps
+  be sure to: make sure
+  'begin[s]*': start
+  capability: ability
+  check out: see
+  'choose[s]*': select/clear/click/double-click
+  'complete[s]*': finish
+  comply with: follow
+  'configure[s]*': set up
+  contains: has
+  could: can
+  'credential[s]*': username and password
+  currently: at the moment/now
+  customizations: changes/edits/settings
+  'demonstrate[s]*': show
+  desire: want/require
+  desired: wanted/required
+  'determine[s]*': decide/figure/find
+  'disable[s]': turn off
+  display: show
+  double-check: check/make sure/verify/ensure/read
+  double click: double-click
+  drag and drop: drag-and-drop (adjective) or drag (verb)
+  drag-and-drop: drag-and-drop (adjective) or drag (verb)
+  drop-down: list
+  due to the fact: since/because
+  #e.g.: for example/like
+  enables you to: You can do a, b, and c.
+  enable: turn on
+  encounter: meet
+  establish: set up/prove/show
+  etc: and so on
+  equipments: equipment
+  evident: clear
+  execute: run/complete
+  fetch: retrieve
+  finalize: complete/finish
+  following: after/next
+  for instance: for example
+  have been: are
+  have the option to: can
+  #option: choice/way
+  hover the: hover over
+  identify: find/name/show
+  initial: first
+  input: enter
+  #if you want to: (Optional)
+  is able to: can
+  it is recommended: a statement about what the customer must do
+  launch: open
+  method: way
+  methods: ways
+  minimize: decrease/method
+  minimum: least/smallest
+  once: after/when
+  optimize: make it better
+  optimization: improvement
+  out-of-the-box: default
+  out of the box: default
+  path name: path
+  perform: run
+  plugin: plug in (verb) or plug-in
+  point to: hover over
+  portion: part
+  preceding: before
+  previous: earlier
+  previously: before
+  proceed: do/go ahead/try
+  reboot: restart
+  #recommend: -- Rewrite to make a statement about what the customer must do
+  'refer[s]* to': see
+  required to: need to
+  'require[sd]*': must/need
+  #read: see
+  '[ ]see[ ]': view - when describing the UI
+  simultaneously: at the same time
+  shows up: appears
+  specify: select/click/type/enter/or whatever the action is
+  such as: like
+  sufficient: enough
+  takes you to: open
+  via: by using, through
+  visit: go to, navigate to
+  warning message: attention message
+  wish: want
+  whether or not: whether
+  won't: present tense
+  the fields are: the fields are defined as follows
+  click here: a meaningful link text
+  a lot of: many/much
+  a lot: many/much
+  a number of: several
+  abort: cancel/stop
+  all caps: uppercase
+  allow: you can use the product to... or with this product, users can...
+  as long as: if/provide that
+  as well as: and
+  warning notice: attention notice
+  warning notification: attention notification
+  blink: flash -- if it refers to indicator lights
+  camel case: a relevant example
+  case insensitive: not case-sensitive
+  catastrophic error: unrecoverable error
+  'check [^b]': select/mark -- if you refer to a check box
+  comes with: includes
+  command console: another expression
+  congratulations: another expression, e.g., You have now completed the tutorial
+  connect with: connect to
+  consume: use
+  crash: fail/lock up/stop/stop responding
+  customer: client
+  deconfigure: unconfigure
+  deinstall: uninstall
+  demo: demonstration/demonstrate
+  deregister: unregister
+  dismount: unmount
+  done: finished
+  expose: display/show/make available
+  fill in: complete/enter/specify
+  hit: press/type
+  illegal: invalid/incorrect
+  immediately: at once
+  in addition: also/besides/too
+  in other words: for example/that is
+  in order to: to
+  in order that: for/so
+  in regard to: about/with/to
+  is responsible for: handles
+  in relation to: about/with/to
+  in spite of: regardless/despite
+  in the amount of: for
+  in the event: if/when/in case
+  inactivate: deactivate / turn off
+  information on: information about
+  instead of: rather than
+  insure: ensure
+  invoke: start/call
+  is authorized to: may
+  itself: --
+  it is essential: must/need to
+  launch: start/open
+  let you: You can do a, b, and c.
+  lets you: You can do a, b, and c.
+  main directory: root directory
+  modify: edit/change
+  native: local/basic/required
+  notify: let someone know/tell
+  on the fly: dynamically/as needed/in real time
+  on the other hand: however/alternatively/conversely
+  position: move
+  prior to: before
+  proper: right/correct
+  'provide[s]*': give/include/show/offer/say
+  provided that: of
+  '[ ]quote[ ]': quotation
+  #recommend: suggest
+  regarding: about/for/of/on
+  retry: another expression
+  respective: another expression
+  respectively: another expression
+  retry: try again
+  terminate: end/stop
+  switch on: turn on
+  switch off: turn off
+  strike: press/type
+  spawn: create
+  start up: start
+  themselves: another expression
+  there is: another expression
+  there are: another expression
+  this means: another expression
+  through: by using//finished/completed
+  thus: therefore
+  touchscreen: touch-sensitive screen
+  to be able to: to
+  transparent: not visible
+  typo: typing or typographical error
+  uncheck: clear
+  if you want to: to
+  if you would like to: to
+  alright: another expression
+  all right: another expression
+  frictionless: another expression
+  got: another expression
+  hard copy: printed
+  ⁠lifecycle: ⁠life cycle
+  ⁠life-cycle: ⁠life cycle
+  ⁠look at: examine/inspect
+  purchase: buy/pay
+  receive: get
+  'remain[s]*': stay
+  represent: is
+  represents: is
+  ⁠right now: now
+  scroll bar: scrollbar
+  scroll-bar: scrollbar
+  setup: setup (noun) or set-up/set up (adj)
+  ⁠skill set: skills/knowledge
+  softcopy: online
+  soft copy: online
+  soft-copy: online
+  submit: send
+  unable to: can't
+  validate: confirm
+  we suggest: recommend
+  will: the verb in present tense
+  she: you/they
+  he: you/they
+  his: your/their
+  her: your/their
+  unformatted: plain
+
+
+

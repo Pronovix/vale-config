@@ -1,0 +1,7 @@
+extends: existence
+message: "Don't use heading lvl 4+"
+ignorecase: false
+nonword: true
+level: error
+tokens:
+  - '^#{5,}'

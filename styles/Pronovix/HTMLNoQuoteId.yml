@@ -1,0 +1,7 @@
+extends: existence
+message: "Always use a quotation mark right after the id= tag"
+ignorecase: false
+nonword: true
+level: error
+tokens:
+  - '<a id=[^"]'

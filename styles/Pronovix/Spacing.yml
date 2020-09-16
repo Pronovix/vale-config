@@ -1,0 +1,8 @@
+extends: existence
+message: "'%s' should have one space."
+level: error
+nonword: true
+tokens:
+  - '[.?!][A-Z]'
+  - '[a-zA-Z][,;][a-z0-9]'
+  - '[[:graph:]][ ]{2,}[[:graph:]]'

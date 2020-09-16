@@ -1,0 +1,7 @@
+extends: existence
+message: "Don't use anchor tags in H1"
+ignorecase: false
+nonword: true
+level: error
+tokens:
+  - '^#{1} <a id=["a-z\-#]+></a>'

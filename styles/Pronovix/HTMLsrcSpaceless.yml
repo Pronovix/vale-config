@@ -1,0 +1,7 @@
+extends: existence
+message: "Insert a space before the src tag"
+ignorecase: false
+nonword: true
+level: error
+tokens:
+  - '"src='

@@ -1,0 +1,7 @@
+extends: existence
+message: "Use <em></em> tag instead of <i></i> for italic"
+ignorecase: false
+nonword: true
+level: error
+tokens:
+    - '<i>|</i>'

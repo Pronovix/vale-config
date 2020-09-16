@@ -1,0 +1,7 @@
+extends: existence
+message: "Don't use characters between the opening and closing anchor tags in a heading"
+ignorecase: false
+nonword: true
+level: error
+tokens:
+  - '^#+ <a id=["a-z\-]+>[^<]'

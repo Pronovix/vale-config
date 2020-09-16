@@ -1,0 +1,10 @@
+extends: repetition
+message: "'%s' is repeated!"
+level: error
+alpha: true
+tokens:
+  #- '[\w]+'
+  #- '([a-zA-Z][[:graph:]]*[a-zA-Z])+'
+  #- '[^\s]+'
+  #- '[\w\/\]#,\.:">]+'
+   - '[\w]+[.,>\]\-\/"]*'

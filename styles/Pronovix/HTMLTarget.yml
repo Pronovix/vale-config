@@ -1,0 +1,7 @@
+extends: existence
+message: "Target must be _self"
+ignorecase: false
+nonword: true
+level: error
+tokens:
+  - 'target="_blank"|target="_parent"|target="_top"|target="_*[ ]*"'

@@ -1,0 +1,7 @@
+extends: existence
+message: "Use Heading 2, singular form, starting with the HTMLId"
+ignorecase: false
+nonword: true
+level: error
+tokens:
+  - '^#{1} [Rr]elated [Tt]opic[s]?|^#{3,} [Rr]elated [Tt]opic[s]?|^#{2} related [Tt]opic[s]?|^#{2} [Rr]elated topic$|^#{2} Related Topic[s]?$'

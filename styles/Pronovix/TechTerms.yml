@@ -1,0 +1,24 @@
+extends: substitution
+message: Use '%s' instead of '%s'
+ignorecase: true
+level: error
+swap:
+  '[Mm]y ?sql': MySQL
+  'java[ -]?scripts?': JavaScript
+  '[Ss][Qq]lite': SQLite
+  '[Pp][Gg]sql': pgSQL
+  'utf-?8': UTF-8
+  ruby on rail: Ruby on Rails
+  '[Dd]evportal[\s.,\-?! ]+?[^H]+?': developer portal
+  OpenSource: open source
+  opensource: open source
+  open-source: open source
+  'Operating [Ss]ystem': operating system
+  '[Oo]perating [Ss]ysteme': operating system
+  OS: operating system
+  cross link: cross-link
+  crosslink: cross-link
+  fullscreen: full screen
+  Fullscreen: Full screen
+  '[Oo]auth|o[Aa]uth': OAuth
+  click on: click

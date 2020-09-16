@@ -1,0 +1,13 @@
+extends: substitution
+message: Use '%s'
+ignorecase: false
+nonword: true
+level: error
+#reference: https://study.com/academy/lesson/when-how-to-use-eg-in-a-sentence.html
+swap:
+  '(?:[^\w][Ee]g[^\w])': e.g.,
+  #'(?:ie)': i.e.,
+  '(?:[Ee]\.g\.)[^,]': e.g.,
+  #'(?:i\.e\.)\s*': i.e.,
+  '\d{1,2} ?[ap]m': a.m. or p.m.
+  '12 ?[ap]\.?m\.?': midnight or noon

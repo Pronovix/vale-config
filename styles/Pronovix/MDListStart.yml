@@ -1,0 +1,7 @@
+extends: existence
+message: "MD lists start with a hyphen not a star"
+ignorecase: false
+nonword: true
+level: error
+tokens:
+    - '^\*[^*]'

@@ -1,0 +1,7 @@
+extends: existence
+message: "anchor-ids-must-contain-a-z-and-hyphens-only"
+ignorecase: false
+nonword: true
+level: error
+tokens:
+  - '<a id="[a-z\-]*[\"A-Z0-9\!\%#\_()!?:+=]+[a-z\-]*"'

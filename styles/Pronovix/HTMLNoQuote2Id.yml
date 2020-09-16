@@ -1,0 +1,7 @@
+extends: existence
+message: "Always close the id tag with a quotation mark"
+ignorecase: false
+nonword: true
+level: error
+tokens:
+  - '^#+ <a id="[a-z\-]+>'

@@ -1,0 +1,7 @@
+extends: existence
+message: "Image file names must contain a-z 0-9 and _ characters only"
+ignorecase: false
+nonword: true
+level: warning
+tokens:
+  - 'src=("@guide_path/assets/[a-z0-9_]*([^a-z0-9_]+[a-z0-9_]*)+)\.'

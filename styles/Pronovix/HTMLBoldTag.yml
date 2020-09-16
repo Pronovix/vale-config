@@ -1,0 +1,7 @@
+extends: existence
+message: "Use <strong></strong> tag rather than <b></b> for bold"
+ignorecase: false
+nonword: true
+level: error
+tokens:
+    - '<b>|</b>'

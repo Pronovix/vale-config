@@ -1,0 +1,7 @@
+extends: existence
+message: "Leave a space before the align tag"
+ignorecase: false
+nonword: true
+level: error
+tokens:
+    - '"align='

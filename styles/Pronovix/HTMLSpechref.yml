@@ -1,0 +1,7 @@
+extends: existence
+message: "Don't use spec characters in href tag"
+ignorecase: false
+nonword: true
+level: error
+tokens:
+  - '<a href="[a-zA-Z0-9?:=./\-#@()*;+$,%\[\]_]*[^a-zA-Z0-9?:=./\-#@()*;+$,%\[\]_]+[a-zA-Z0-9?:=./\-#@()*;+$,%\[\]_]*"[ ]|<a href="[a-zA-Z0-9?:=./\-#@()*;+$,%\[\]_]*[^a-zA-Z0-9?:=./\-#@()*;+$,%\[\]_]+[a-zA-Z0-9?:=./\-#@()*;+$,%\[\]_]*">'

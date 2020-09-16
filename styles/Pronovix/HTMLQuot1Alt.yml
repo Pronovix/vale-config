@@ -1,0 +1,7 @@
+extends: existence
+message: "Always open the alt= tag with a quotation mark"
+ignorecase: false
+nonword: true
+level: error
+tokens:
+  - '<a href="[a-zA-Z0-9?:=.\-#@()*;+$,%/\[\]_]+" alt=[a-zA-Z0-9?:=.\-#@()*;+$,%\[\]_ ]+"( target="_self")?>'

@@ -1,0 +1,7 @@
+extends: existence
+message: "Don't leave the alt tag empty"
+ignorecase: false
+nonword: true
+level: error
+tokens:
+  - 'alt="[\s]*"'

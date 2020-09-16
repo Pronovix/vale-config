@@ -1,0 +1,7 @@
+extends: existence
+message: "Close alt text with a quotation mark"
+ignorecase: false
+nonword: true
+level: error
+tokens:
+  - '<img alt="[a-zA-Z0-9!?:=./\-#@()*;+$,%_ ]+\s*src'

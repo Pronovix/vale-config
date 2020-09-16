@@ -1,0 +1,7 @@
+extends: existence
+message: "The heading title must start right after the closing anchor tag, don't use space"
+ignorecase: false
+nonword: true
+level: error
+tokens:
+  - '^#+ <a id=["a-z\-]+></a>[\s]+'

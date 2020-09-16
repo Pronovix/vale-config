@@ -1,0 +1,7 @@
+extends: existence
+message: "HTML image guides path is invalid, use @guides_path/assets/"
+ignorecase: false
+nonword: true
+level: error
+tokens:
+  - 'src=[^"]|src="[^@]|src="@[^g]|src="@g[^u]|src="@gu[^i]|src="@gui[^d]|src="@guid[^e]|src="@guide[^_]|src="@guide_[^p]|src="@guide_p[^a]|src="@guide_pa[^t]|src="@guide_pat[^h]|src="@guide_path[^\/]|src="@guide_path/[^a]|src="@guide_path/a[^s]|src="@guide_path/as[^s]|src="@guide_path/ass[^e]|src="@guide_path/asse[^t]|src="@guide_path/asset[^s]|src="@guide_path/assets[^\/]'

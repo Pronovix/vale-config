@@ -1,0 +1,7 @@
+extends: existence
+message: "Guide href is not valid, use /admin/guides/ or #chapter-name"
+ignorecase: false
+nonword: true
+level: warning
+tokens:
+  - 'href=[^"]|href="[^/#]|href="/[^a]|href="/a[^d]|href="/ad[^m]|href="/adm[^i]|href="/admi[^n]|href="/admin[^/]|href="/admin/[^g]|href="/admin/g[^u]|href="/admin/gu[^i]|href="/admin/gui[^d]|href="/admin/guid[^e]|href="/admin/guide[^s]|href="/admin/guides[^/"]'

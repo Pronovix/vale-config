@@ -1,0 +1,7 @@
+extends: existence
+message: "Closing quotation mark is missing from the src tag"
+ignorecase: false
+nonword: true
+level: error
+tokens:
+  - 'src="[a-zA-Z0-9!?:=./\-#@()*;+$,%_ ]+\s*max'

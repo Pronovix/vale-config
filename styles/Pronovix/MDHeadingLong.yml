@@ -1,0 +1,7 @@
+extends: existence
+message: "Use shorter heading! (max. 27 characters)"
+ignorecase: false
+nonword: true
+level: warning
+tokens:
+  - '^#+ <a id="[[:graph:] ]+"></a>[a-zA-Z0-9 ]{27,}'

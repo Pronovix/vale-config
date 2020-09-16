@@ -1,0 +1,83 @@
+extends: consistency
+message: "Inconsistent spelling of '%s'."
+level: error
+ignorecase: true
+either:
+  add on: add-on
+  can not: can't
+  cannot: can't
+  case-sensitive: case sensitive
+  checkbox: check box
+  check-box: check box
+  click on: click [the name of the instance]
+  double click: double-click
+  drag and drop: drag-and-drop (adjective) or drag (verb)
+  drag-and-drop: drag-and-drop (adjective) or drag (verb)
+  drop down: drop-down
+  end point: endpoint
+  end user: end-user
+  'faqs?': FAQ or Frequently Asked Questions
+  '[Ff]requently[- ]?[Aa]sked[- ]?questions?|[Ff]requently[- ]?asked[- ]?[Qq]uestions?|frequently[- ]?[Aa]sked[- ]?[Qq]uestions?|[Ff]requently[-]?[Aa]sked[-]?[Qq]uestions?|Frequently Asked Question[^s]': Frequently Asked Questions
+  filename: file name
+  file-name: file name
+  home-page: home page
+  homepage: home page
+  '[Ll]ogin': log in to/as
+  log-in: log in to/as
+  log on: log in to/as
+  log off: log out
+  logoff: log out
+  log-off: log out
+  run time: runtime
+  run-time: run time
+  '[ ]user-name[ ]': username
+  '[ ]user name[ ]': username
+  homepage: home page
+  home-page: home page
+  howto: how-to
+  HOWTO: how-to
+  read me: readme
+  read-me: readme
+  tool bar: toolbar
+  tool-bar: toolbar
+  toggle on: toggle
+  toggle off: toggle
+  bugfix: bug fix
+  '[ ]builtin[ ]': built-in
+  '[ ]built in[ ]'': built-in
+  datatype: data type
+  data-type: data type
+  firm ware: firmware
+  firm-ware: firmware
+  gray scale: grayscale
+  gray-scale: grayscale
+  meta data: metadata
+  meta-data: metadata
+  mousebutton: mouse button
+  mouse-button: mouse button
+  plaintext: plain text
+  plain-text: plain text
+  popup: pop-up
+  pop up: pop-up
+  shutdown: shut down
+  shut-down: shut down
+  ⁠textbased: ⁠text-based
+  ⁠text based: ⁠text-based
+  useable: usable
+  user-interface: user interface
+  advisor: adviser
+  centre: center
+  colour: color
+  emphasise: emphasize
+  finalise: finalize
+  focussed: focused
+  labour: labor
+  learnt: learned
+  organise: organize
+  organised: organized
+  organising: organizing
+  recognise: recognize
+  matrices: matrixes
+  #screenshot: screen capture
+  screen-shot: screenshot
+  screen shot: screenshot

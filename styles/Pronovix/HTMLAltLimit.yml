@@ -1,0 +1,7 @@
+extends: existence
+message: "Use shorter alt text, max 50 characters"
+ignorecase: false
+nonword: true
+level: warning
+tokens:
+  - '<img alt="([a-zA-Z0-9!?:=./\-#@()*;+$,%_ ]+){50,}"'

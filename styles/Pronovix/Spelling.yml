@@ -1,0 +1,8 @@
+---
+extends: spelling
+message: "'%s' is a typo!"
+custom: true
+level: error
+ignore:
+  - Pronovix/ignore/base.txt
+  - Pronovix/ignore/ugignore.txt

@@ -1,0 +1,7 @@
+extends: existence
+message: "Alignment must be center"
+ignorecase: false
+nonword: true
+level: error
+tokens:
+    - 'align=[^"]|align="[^c]|align="c[^e]|align="ce[^n]|align="cen[^t]|align="cent[^e]|align="cente[^r]|align="center[^"]'
