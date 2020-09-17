@@ -44,7 +44,7 @@ either:
   toggle off: toggle
   bugfix: bug fix
   '[ ]builtin[ ]': built-in
-  '[ ]built in[ ]'': built-in
+  '[ ]built in[ ]': built-in
   datatype: data type
   data-type: data type
   firm ware: firmware
